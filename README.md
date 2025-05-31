@@ -53,32 +53,31 @@
 
 ## Descripción
 
-**Virgen Natividad App** es una aplicación móvil desarrollada con **Expo** y **React Native**. Esta aplicación está diseñada para facilitar la gestión y comunicación entre estudiantes, docentes y tutores dentro de la institución educativa Virgen Natividad.
+**Virgen Natividad App** is a mobile application built with **Expo and React Native**, created to streamline communication and management within the Virgen Natividad educational institution. It connects students, teachers, and guardians through a clean, role-based experience.
 
-### Características principales
+### Key Features
 
-- Gestión de asistencia para estudiantes y tutores.
-- Visualización de notas para estudiantes.
-- Gestión de tareas para docentes y estudiantes.
-- Publicación de comunicados importantes.
-- Sistema de pagos y perfil para estudiantes.
-- Sistema de navegación mediante Drawers personalizados según el rol (docente, estudiante, tutor).
+- 📋 Attendance tracking for students and guardians
+- 📈 Grade viewing for students
+- 💳 Payment system with student profiles (integrated with Stripe)
+- 🧭 Drawer-based navigation adapted to each user role
 
-## Requisitos
+## Requirements
 
-Para ejecutar este proyecto, asegúrate de tener instalados los siguientes requisitos:
+Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (versión 14 o superior)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 - [Git](https://git-scm.com/)
 
-### Dependencias clave
+### Main Dependencies
 
-- `react-native`: Framework principal para la construcción de la aplicación.
-- `expo`: Herramienta para el desarrollo de aplicaciones móviles en React Native.
-- `react-navigation`: Navegación entre pantallas y drawers.
-- `axios`: Para realizar solicitudes HTTP a las API.
-- `react-context`: Gestión del estado global de la aplicación.
+- `react-native`: The core mobile development framework.
+- `expo`: Streamlines app development and deployment.
+- `react-navigation`: Custom drawer and stack navigation.
+- `axios`: For API communication.
+- `react-context`: Global state management.
+- `stripe`: Payment integration.
 
 ## Installation
 
